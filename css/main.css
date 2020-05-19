@@ -1,4 +1,4 @@
-nav h1 {
+main h1 {
     text-align: center;
 }
 
@@ -168,19 +168,11 @@ footer div {
 
 /* Smartphones (portrait) ----------------------- */
 @media only screen and (max-device-width: 600px) {
-  #menu {
-display: block;
-    float: right;
+main .sidenav {
+  display: none;
   }
 
-.sidenav {
-
-}
-
-.sidenav a {
-    font-size: 16px;
-    }
 .sidenav div img {
-    display: none;
-}
+  display: none;
+  }
 }
