@@ -169,7 +169,7 @@ footer div {
 
 
 /* Smartphones (portrait) ----------------------- */
-@media only screen (min-device-width: 200px) and (max-device-width: 500px) and (orientation: portrait){
+@media only screen and (min-device-width: 200px) and (max-device-width: 600px) and (orientation: portrait){
 
 .sidenav a {
     font-size: 16px;
