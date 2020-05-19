@@ -15,7 +15,7 @@ nav h1 {
 
 /* The sidebar menu ----------------- */
 .sidenav {
-    /* height: 100%; */
+    height: 100%;
     /* Full-height: remove this if you want "auto" height */
     width: 260px;
     /* Set the width of the sidebar */
@@ -169,12 +169,12 @@ footer div {
 
 
 /* Smartphones (portrait) ----------------------- */
-@media only screen and (min-device-width: 200px) and (max-device-width: 600px) and (orientation: portrait){
+@media only screen and (max-device-width: 600px) {
 
 .sidenav a {
     font-size: 16px;
     }
-div img {
+.sidenav div img {
     display: none;
 }
 }
