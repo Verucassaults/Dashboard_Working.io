@@ -150,13 +150,8 @@ footer div {
 
 /* On landscape tablets ------------------------- */
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1901px){
-    .sidenav {
-        padding-top: 20px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1901px) {
+
 
 	div img {
     margin-top: 100px;
