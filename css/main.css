@@ -2,6 +2,9 @@ nav h1 {
     text-align: center;
 }
 
+#menu {
+  display: none;
+}
 
 /* mother's day animation
 
@@ -151,13 +154,14 @@ footer div {
 /* On landscape tablets ------------------------- */
 
 @media only screen and (min-device-width: 1000px) and (max-device-width: 1901px) {
-
+  #menu {
+    display: none;
+  }
 
 	div img {
     margin-top: 100px;
 		margin-left: 80px;
-}
-
+  }
 }
 
 
@@ -165,6 +169,16 @@ footer div {
 
 /* Smartphones (portrait) ----------------------- */
 @media only screen and (max-device-width: 600px) {
+  #menu {
+    float: right;
+  }
+
+.sidenav {
+
+
+
+}
+
 
 .sidenav a {
     font-size: 16px;
