@@ -180,6 +180,8 @@ main .sidenav {
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
+      margin-left: 1px;
+      margin-right: 1px;
   }
 
 nav {
@@ -226,11 +228,13 @@ nav .content {
 }
 
 .main {
-  width: 100%;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 footer {
     position: fixed;
-    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 }
