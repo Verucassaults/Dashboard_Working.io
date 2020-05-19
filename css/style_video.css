@@ -1,0 +1,25 @@
+* {
+    font-size: 24px;
+}
+
+.video1 {
+    height: 400px;
+    width: 400px;
+    border: 10px;
+    border-color: cornflowerblue;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}

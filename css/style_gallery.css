@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 24px;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}
+
+
+/* styles for images */
+
+
+/* .rotateimg90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+} */
+
+nav ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    color: cornsilk;
+}
+
+.covid {
+    background-image: url("../images/Coronavirus_Image.jpg");
+    height: 125px;
+}
+
+
+/* div a {
+    padding-bottom: 2.5rem;
+} */
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+main ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main ul a {
+    color: cornsilk;
+    font-weight: bold;
+}
+
+.break {
+    border: none;
+}
+
+main section p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration: underline;
+}
