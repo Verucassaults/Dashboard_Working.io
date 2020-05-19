@@ -171,8 +171,58 @@ footer div {
 main .sidenav {
   display: none;
   }
-
 .sidenav div img {
   display: none;
   }
+
+  body {
+      background-image: url('Tulips_2.jpg');
+      background-size: 100%;
+      background-position: left 100% top 0px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+
+nav {
+  background-color: rgb(14, 57, 30);
+}
+
+nav a {
+  padding: 15px 8px 15px 16px;
+  line-height: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  font-weight: bold;
+}
+
+nav h3 {
+  text-align: center;
+  margin-left: 15px;
+  color: rgb(218, 236, 211);
+  text-decoration: underline;
+}
+
+nav .collapsible {
+    background-color: rgb(14, 57, 30);
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgb(14, 57, 30);
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 }
