@@ -177,8 +177,7 @@ main .sidenav {
 
   body {
       background-image: url('Tulips_2.jpg');
-      background-size: 100%;
-      background-position: left 100% top 0px;
+      background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
   }
@@ -224,5 +223,14 @@ nav .content {
     color: white;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
+  width: 100%;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
 }
 }
