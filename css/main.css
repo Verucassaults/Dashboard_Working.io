@@ -170,6 +170,7 @@ footer div {
 /* Smartphones (portrait) ----------------------- */
 @media only screen and (max-device-width: 600px) {
   #menu {
+display: block;
     float: right;
   }
 
