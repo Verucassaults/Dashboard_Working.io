@@ -151,7 +151,7 @@ footer div {
 
 /* On landscape tablets ------------------------- */
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1901px) and (orientation: landscape){
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1901px){
     .sidenav {
         padding-top: 20px;
     }
@@ -170,7 +170,7 @@ footer div {
 
 
 /* Smartphones (portrait) ----------------------- */
-@media only screen (min-device-width: 200px) and (max-width: 525px) and (orientation: portrait){
+@media only screen (min-device-width: 200px) and (max-width: 600px){
 .sidenav {
   height: 10%;
   /* Full-height: remove this if you want "auto" height */
@@ -189,11 +189,11 @@ footer div {
   padding-top: 10px;
 }
 
-    .sidenav a {
-        font-size: 16px;
+.sidenav a {
+    font-size: 16px;
     }
 div img {
-    	margin-top: 325px;
+    margin-top: 300px;
 		margin-left: 80px;
 }
 }
