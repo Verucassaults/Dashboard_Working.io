@@ -31,7 +31,7 @@ nav h1 {
     overflow-x: hidden;
     /* Disable horizontal scroll */
     padding-top: 20px;
-	
+
 }
 
 .sidenav h2 {
@@ -151,8 +151,8 @@ footer div {
 
 /* On landscape tablets ------------------------- */
 
-@media only screen and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media only screen and (min-device-width : 768px)
+and (max-device-width: 1024px) 
 and (orientation : landscape){
     .sidenav {
         padding-top: 20px;
@@ -160,7 +160,7 @@ and (orientation : landscape){
     .sidenav a {
         font-size: 18px;
     }
-	
+
 	div img {
     	margin-top: 100px;
 		margin-left: 80px;
@@ -172,8 +172,8 @@ and (orientation : landscape){
 
 
 /* Smartphones (portrait) ----------------------- */
-@media only screen 
-and (max-width : 525px) {
+@media only screen
+and (max-width: 525px) {
 	.sidenav {
         padding-top: 20px;
     }
