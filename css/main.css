@@ -31,9 +31,7 @@ nav h1 {
     overflow-x: hidden;
     /* Disable horizontal scroll */
     padding-top: 20px;
-    color: pink;
-
-}
+  }
 
 .sidenav h2 {
     text-align: left;
@@ -66,7 +64,7 @@ nav h1 {
 /* navigation image */
 
 div img {
-    vertical-align: bottom;
+  vertical-align: bottom;
 	margin-top: 400px;
 	margin-left: 80px;
 }
@@ -172,28 +170,11 @@ footer div {
 
 /* Smartphones (portrait) ----------------------- */
 @media only screen (min-device-width: 200px) and (max-device-width: 500px) and (orientation: portrait){
-.sidenav {
-  height: 10%;
-  /* Full-height: remove this if you want "auto" height */
-  width: 250px;
-  /* Set the width of the sidebar */
-  position: fixed;
-  /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1;
-  /* Stay on top */
-  top: 0;
-  /* Stay at the top */
-  background-color: rgb(14, 57, 30);
-  /* blue variant */
-  overflow-x: hidden;
-  /* Disable horizontal scroll */
-  padding-top: 10px;
-}
 
 .sidenav a {
     font-size: 16px;
     }
-.sidenav img {
+div img {
     display: none;
 }
 }
