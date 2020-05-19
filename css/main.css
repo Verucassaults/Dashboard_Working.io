@@ -151,7 +151,7 @@ footer div {
 
 /* On landscape tablets ------------------------- */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1901px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1901px) and (orientation: landscape){
     .sidenav {
         padding-top: 20px;
     }
