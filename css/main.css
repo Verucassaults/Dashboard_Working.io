@@ -170,7 +170,7 @@ footer div {
 
 
 /* Smartphones (portrait) ----------------------- */
-@media only screen (min-device-width: 200px) and (max-width: 600px) and (orientation: portrait){
+@media only screen (min-device-width: 200px) and (max-device-width: 600px) and (orientation: portrait){
 .sidenav {
   height: 10%;
   /* Full-height: remove this if you want "auto" height */
