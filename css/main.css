@@ -143,7 +143,7 @@ footer div {
 
 /* On landscape tablets ------------------------- */
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1901px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1300px) and (orientation: landscape) {
   #menu {
     display: none;
   }
@@ -157,18 +157,18 @@ footer div {
 
 
 
-/* Smartphones (portrait) ----------------------- */
-@media only screen and (max-device-width: 600px) {
-main .sidenav {
-  display: none;
-  }
-.sidenav div img {
-  display: none;
-  }
 
-#menu {
-  display: inline-block;
-}
+  /* Smartphones (portrait) ----------------------- */
+  @media only screen and (max-device-width: 767px) and (orientation: portrait) {
+
+  /* turn off sidenav ------------------ */
+  main .sidenav {
+    display: none;
+    }
+  .sidenav div img {
+    display: none;
+    }
+  /* end of turn off sidenav ------------------ */
 
 body {
       background-image: url('Tulips_2.jpg');
@@ -179,48 +179,54 @@ body {
       margin-right: 1px;
   }
 
-nav {
-  background-color: rgb(14, 57, 30);
-}
 
-nav a {
-  padding: 15px 8px 15px 16px;
-  line-height: 25px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  display: block;
-  font-weight: bold;
-}
+  /* top navbar ---------------------------- */
+  #menu {
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      align-items: center;
+      text-align: center;
+      width: 100%
+    }
 
-nav h3 {
-  text-align: center;
-  margin-left: 15px;
-  color: rgb(218, 236, 211);
-  text-decoration: underline;
-}
+    #menu h3 {
+        text-align: center;
+        color: rgb(218, 236, 211);
+        text-decoration: underline;
+    }
 
-.collapsible {
-    background-color: rgb(14, 57, 30);
-    color: white;
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+    #menu a {
+        padding: 10px 8px 10px 10px;
+        line-height: 25px;
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+        display: block;
+        font-weight: bold;
+    }
+  .collapsible {
+      background-color: rgb(14, 57, 30);
+      color: white;
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      text-align: center;
+      outline: none;
+      font-size: 16px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
 
-.content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: rgb(14, 57, 30);
-    color: white;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+  .content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: rgb(14, 57, 30);
+      color: white;
+      font-size: 16px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  /* end of top navbar ---------------------------- */
 
 .main {
   margin-left: 1px;
