@@ -2,6 +2,11 @@
     font-size: 24px;
 }
 
+#menu {
+  display: none;
+}
+
+
 /* The sidebar menu -------------------------------------------------- */
 .sidenav {
     height: 100%;
@@ -87,6 +92,12 @@ body {
   margin-left: 260px;
 }
 
+
+iframe {
+  height: 235px;
+  width: 420px;
+}
+
 p {
   text-align: center;
   font-weight: bold;
@@ -106,12 +117,18 @@ p {
 
 /* On landscape tablets ------------------------- */
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1901px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1300px) and (orientation: landscape) {
   #menu {
     display: none;
   }
+
   body {
     background-color: rgb(245, 245, 245);
+  }
+
+  iframe {
+    height: 175px;
+    width: 315px;
   }
 }
 
@@ -119,7 +136,7 @@ p {
 
 
 /* Smartphones (portrait) ----------------------- */
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 767px) and (orientation: portrait) {
 main .sidenav {
   display: none;
   }
