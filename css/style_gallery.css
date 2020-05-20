@@ -31,13 +31,6 @@ html {
     padding-top: 20px;
   }
 
-.sidenav h2 {
-    text-align: left;
-    margin-left: 15px;
-    color: rgb(218, 236, 211);
-    text-decoration: underline;
-}
-
 .sidenav h3 {
     text-align: left;
     margin-left: 15px;
@@ -105,29 +98,6 @@ body {
 
 /* styles for images ------------------- */
 
-
-/* .rotateimg90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-} */
-
-nav ul {
-    list-style: none;
-    margin: 0 2px;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-
-/* div a {
-    padding-bottom: 2.5rem;
-} */
-
 .column {
     float: left;
     width: 20%;
@@ -135,7 +105,6 @@ nav ul {
     text-align: center;
     align-items: center;
 }
-
 
 /* Clearfix (clear floats) */
 
@@ -183,18 +152,68 @@ main section p {
 
 /* Smartphones (portrait) ----------------------- */
 @media only screen and (max-device-width: 767px) and (orientation: portrait) {
+
+/* turn off sidenav ------------------ */
 main .sidenav {
   display: none;
   }
 .sidenav div img {
   display: none;
   }
+/* end of turn off sidenav ------------------ */
 
-  body {
+body {
     background-color: rgb(245, 245, 245);
     margin-left: 0.1px;
   }
 
+/* top navbar ---------------------------- */
+#menu {
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+  }
+
+  #menu h3 {
+      text-align: left;
+      margin-left: 15px;
+      color: rgb(218, 236, 211);
+      text-decoration: underline;
+  }
+
+  #menu a {
+      padding: 15px 8px 15px 16px;
+      line-height: 25px;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      display: block;
+      font-weight: bold;
+  }
+.collapsible {
+    background-color: rgb(14, 57, 30);
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgb(14, 57, 30);
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* end of top navbar ---------------------------- */
+
+/* image styles */
   .column {
       float: left;
       width: 33.3%;
@@ -202,8 +221,6 @@ main .sidenav {
       text-align: center;
       align-items: center;
   }
+/* end of image styles */
 
-#menu {
-  display: inline-block;
-}
 }
