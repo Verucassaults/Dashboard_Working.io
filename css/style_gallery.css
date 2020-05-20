@@ -140,7 +140,7 @@ nav ul {
     display: table;
     text-align: center;
     align-items: center;
-  }
+    }
 
 .break {
     border: none;
@@ -163,6 +163,14 @@ main section p {
   body {
     background-color: rgb(245, 245, 245);
   }
+
+  .column {
+      float: left;
+      width: 25%;
+      padding: 25px;
+      text-align: center;
+      align-items: center;
+  }
 }
 
 
@@ -180,6 +188,14 @@ main .sidenav {
   body {
     background-color: rgb(245, 245, 245);
     margin-left: 0.1px;
+  }
+
+  .column {
+      float: left;
+      width: 50%;
+      padding: 25px;
+      text-align: center;
+      align-items: center;
   }
 
 #menu {
