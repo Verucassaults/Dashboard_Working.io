@@ -165,18 +165,19 @@ main .sidenav {
 body {
     background-color: rgb(245, 245, 245);
     margin-left: 0.1px;
+
   }
 
 /* top navbar ---------------------------- */
 #menu {
     display: inline-block;
     position: fixed;
-    z-index: 1;
+    align-items: center;
+    text-align: center;
   }
 
   #menu h3 {
-      text-align: left;
-      margin-left: 15px;
+      text-align: center;
       color: rgb(218, 236, 211);
       text-decoration: underline;
   }
@@ -196,7 +197,7 @@ body {
     cursor: pointer;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
