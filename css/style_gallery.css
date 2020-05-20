@@ -171,7 +171,8 @@ body {
 /* top navbar ---------------------------- */
 #menu {
     display: inline-block;
-    position: fixed;
+    position: relative;
+    /* z-index: 1; */
     align-items: center;
     text-align: center;
   }
