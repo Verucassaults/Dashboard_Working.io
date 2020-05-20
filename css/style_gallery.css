@@ -156,7 +156,7 @@ main section p {
 
 /* On landscape tablets ------------------------- */
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1901px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1300px) and (orientation: landscape) {
   #menu {
     display: none;
   }
@@ -177,7 +177,7 @@ main section p {
 
 
 /* Smartphones (portrait) ----------------------- */
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 767px) and (orientation: portrait) {
 main .sidenav {
   display: none;
   }
